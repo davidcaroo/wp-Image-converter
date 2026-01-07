@@ -1,0 +1,178 @@
+.wpifc-admin {
+    margin: 20px 20px 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.wpifc-title {
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #1e1e1e;
+}
+
+.wpifc-stats-banner {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.wpifc-stat-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wpifc-stat-val {
+    font-size: 32px;
+    font-weight: 800;
+    color: #2d3748;
+}
+
+.wpifc-stat-label {
+    font-size: 13px;
+    color: #718096;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.wpifc-stat-percent .wpifc-stat-val {
+    color: #4299e1;
+}
+
+.wpifc-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.wpifc-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s ease;
+}
+
+.wpifc-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #2d3748;
+}
+
+.wpifc-card h2 .dashicons {
+    color: #4a5568;
+}
+
+/* Diagnostics Styles */
+.wpifc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.wpifc-stat-item {
+    padding: 12px;
+    border-radius: 8px;
+    background: #f8fafc;
+    border-left: 4px solid #cbd5e0;
+}
+
+.wpifc-stat-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #718096;
+    margin-bottom: 5px;
+}
+
+.wpifc-stat-status {
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wpifc-status-success {
+    border-left-color: #48bb78;
+    color: #2f855a;
+}
+
+.wpifc-status-warning {
+    border-left-color: #ed8936;
+    color: #c05621;
+}
+
+.wpifc-status-error {
+    border-left-color: #f56565;
+    color: #c53030;
+}
+
+/* Fields */
+.wpifc-field {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.wpifc-field:last-of-type {
+    border-bottom: none;
+}
+
+.wpifc-checkbox-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.wpifc-slider {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.wpifc-progress-container {
+    margin-top: 20px;
+}
+
+.wpifc-progress-bar {
+    height: 12px;
+    background: #edf2f7;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.wpifc-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4299e1 0%, #667eea 100%);
+    transition: width 0.3s ease;
+}
+
+.wpifc-progress-text {
+    font-size: 13px;
+    color: #718096;
+    margin-top: 8px;
+    text-align: center;
+}
+
+#start-conversion {
+    padding: 15px 30px;
+    background: #4299e1;
+    border-color: #3182ce;
+}
+
+#start-conversion:hover {
+    background: #3182ce;
+}

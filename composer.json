@@ -1,0 +1,14 @@
+{
+    "name": "davidcaro/wp-image-converter",
+    "description": "Pro-level image converter",
+    "type": "wordpress-plugin",
+    "require": {
+        "woocommerce/action-scheduler": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WP_Image_Converter\\": "includes/",
+            "WP_Image_Converter\\Admin\\": "admin/"
+        }
+    }
+}
